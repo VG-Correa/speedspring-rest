@@ -79,7 +79,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
  *
  * @param <W> Tipo do objeto de domínio (Model) a ser convertido
  * @param <R> Tipo do DTO resultante da conversão
- * @author Corrêa
+ * @author VG-Correa
  */
 public interface DTOConvertable<W, R> {
 

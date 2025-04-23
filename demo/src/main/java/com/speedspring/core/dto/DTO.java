@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
  *
  * @param <M> O tipo do modelo associado ao DTO.
  * 
- * @author Corrêa
+ * @author VG-Correa
  */
 public interface DTO<M> {
 

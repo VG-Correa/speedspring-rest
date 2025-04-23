@@ -10,7 +10,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.3.3</version>
+        <version>3.3.10</version>
         <relativePath/> <!-- Sem caminho relativo -->
     </parent>
 
@@ -37,7 +37,7 @@
     <!-- Desenvolvedores: adicione um id único e roles -->
     <developers>
         <developer>
-            <id>victor-gabriel</id> <!-- Seu ID único -->
+            <id>VG-Correa</id> <!-- Seu ID único -->
             <name>Victor Gabriel Corrêa</name>
             <email>v.victorgabriel2014@gmail.com</email>
             <roles>
@@ -151,7 +151,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
-                <version>3.3.1</version>
                 <executions>
                     <execution>
                         <id>attach-sources</id>
@@ -166,7 +165,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.5.0</version>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>

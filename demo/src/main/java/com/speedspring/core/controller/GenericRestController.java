@@ -46,7 +46,7 @@ import com.speedspring.core.responses.InternalErrorResponse;
  * }
  * </pre>
  *
- * @author Corrêa
+ * @author VG-Correa
  * @since 1.0
  */
 @RestController
