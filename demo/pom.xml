@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- Versão do modelo POP POM -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Herda do Spring Boot para facilitar configurações, mas não gera fat-jar ao publish -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.3.3</version>
+        <relativePath/> <!-- Sem caminho relativo -->
+    </parent>
+
+    <!-- Coordenadas únicas para seu artefato no Maven Central -->
+    <groupId>com.speedspring</groupId>
+    <artifactId>speedspring-rest</artifactId>
+    <version>1.0.0-SNAPSHOT</version> <!-- Altere para 1.0.0 quando for release -->
+    <packaging>jar</packaging>
+
+    <!-- Informações de projeto -->
+    <name>SpeedSpring Rest</name>
+    <description>Biblioteca para facilitar desenvolvimento de REST APIs com Spring Boot</description>
+    <url>https://github.com/VG-Correa/speedspring-rest</url> <!-- Preencha com a URL do repositório -->
+
+    <!-- Licença: obrigatório para Maven Central -->
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution> <!-- Distribuição no repositório -->
+        </license>
+    </licenses>
+
+    <!-- Desenvolvedores: adicione um id único e roles -->
+    <developers>
+        <developer>
+            <id>victor-gabriel</id> <!-- Seu ID único -->
+            <name>Victor Gabriel Corrêa</name>
+            <email>v.victorgabriel2014@gmail.com</email>
+            <roles>
+                <role>author</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <!-- Configuração de SCM para permitir integração e tracking de versão -->
+    <scm>
+        <connection>scm:git:git://github.com/VG-Correa/speedspring-rest.git</connection>
+        <developerConnection>scm:git:ssh://github.com/VG-Correa/speedspring-rest.git</developerConnection>
+        <url>https://github.com/VG-Correa/speedspring-rest</url>
+    </scm>
+
+    <!-- Versão do Java utilizada pelo projeto -->
+    <properties>
+        <java.version>22</java.version>
+        <!-- Configurações para Sonatype OSSRH URLs -->
+        <ossrh.snapshot.url>https://s01.oss.sonatype.org/content/repositories/snapshots</ossrh.snapshot.url>
+        <ossrh.release.url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</ossrh.release.url>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-jexl3</artifactId>
+            <version>3.4.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+
+        <dependency>
+            <groupId>net.objecthunter</groupId>
+            <artifactId>exp4j</artifactId>
+            <version>0.4.8</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-rest</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web-services</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+       
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <!-- Configuração de repositórios para deploy snapshots e releases -->
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>${ossrh.snapshot.url}</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>${ossrh.release.url}</url>
+        </repository>
+    </distributionManagement>
+
+    <build>
+        <plugins>
+            <!-- Desabilita o repackaging de executável Spring Boot -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>repackage</id>
+                        <phase>none</phase>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- Gera JAR de fontes -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>3.3.1</version>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal> <!-- Use <goal>jar</goal>, não jar-no-fork -->
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- Gera JAR de Javadoc -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.5.0</version>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <failOnError>false</failOnError> <!-- Não falhar build se Javadoc tiver avisos -->
+                </configuration>
+            </plugin>
+
+            <!-- Assina artifacts com GPG: configure 'gpg.passphrase' em settings.xml -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>3.2.1</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals><goal>sign</goal></goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- Plugin para Nexus Staging (Sonatype OSSRH) -->
+            <plugin>
+                <groupId>org.sonatype.plugins</groupId>
+                <artifactId>nexus-staging-maven-plugin</artifactId>
+                <version>1.6.13</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <serverId>ossrh</serverId> <!-- Deve corresponder ao servidor em settings.xml -->
+                    <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
+                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <!-- Profile opcional para controlar deploy de release -->
+    <profiles>
+        <profile>
+            <id>release</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <properties>
+                <skipTests>true</skipTests> <!-- Se desejar pular testes em release -->
+            </properties>
+        </profile>
+    </profiles>
+
+</project>
