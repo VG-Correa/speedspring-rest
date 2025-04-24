@@ -180,26 +180,7 @@
                 </configuration>
             </plugin>
 
-            <!-- GPG Signing -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-gpg-plugin</artifactId>
-                <version>3.2.1</version>
-                <executions>
-                    <execution>
-                        <id>sign-artifacts</id>
-                        <phase>verify</phase>
-                        <goals><goal>sign</goal></goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <gpgExecutable>C:\Program Files (x86)\GnuPG\bin\gpg.exe</gpgExecutable> <!-- ajuste se necessário -->
-                    <gpgArguments>
-                        <arg>--batch</arg>
-                        <arg>--pinentry-mode</arg><arg>loopback</arg>
-                    </gpgArguments>
-                </configuration>
-            </plugin>
+        
 
             <!-- Nexus Staging (Sonatype OSSRH) -->
             <plugin>

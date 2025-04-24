@@ -3,16 +3,7 @@ package com.spec.speedspring.core.responses;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.stereotype.Component;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-@Component
 public class GenericResponse {
 
     private Integer status;
@@ -53,6 +44,8 @@ public class GenericResponse {
         return this;
     }
 
+    public GenericResponse(){}
+
     public GenericResponse(GenericResponse gr) {
         setStatus(gr.status);
         setError(gr.error);
@@ -71,6 +64,26 @@ public class GenericResponse {
         this.status = null;
 
         return genericResponse;
+    }
+
+    public Integer getStatus() {
+        return status;
+    }
+
+    public boolean isError() {
+        return error;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public Object getMetadata() {
+        return metadata;
+    }
+
+    public Object getData() {
+        return data;
     }
 
 }

@@ -54,12 +54,7 @@ import com.spec.speedspring.core.responses.InternalErrorResponse;
 @Component
 public class GenericRestController {
 
-    /**
-     * Instância de resposta genérica injetada pelo Spring, utilizada como base
-     * para montagem de todas as respostas HTTP.
-     */
-    @Autowired
-    private GenericResponse response;
+    private GenericResponse response = new GenericResponse();
 
     /**
      * Constrói e retorna a {@link ResponseEntity} padrão com o corpo e status definidos

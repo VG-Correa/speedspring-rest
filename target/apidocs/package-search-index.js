@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.spec.speedspring.config"},{"l":"com.spec.speedspring.core.controller"},{"l":"com.spec.speedspring.core.dto"},{"l":"com.spec.speedspring.core.dtoConvertable"},{"l":"com.spec.speedspring.core.exception"},{"l":"com.spec.speedspring.core.responses"}];updateSearchResults();

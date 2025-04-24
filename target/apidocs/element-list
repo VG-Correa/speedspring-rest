@@ -1,0 +1,6 @@
+com.spec.speedspring.config
+com.spec.speedspring.core.controller
+com.spec.speedspring.core.dto
+com.spec.speedspring.core.dtoConvertable
+com.spec.speedspring.core.exception
+com.spec.speedspring.core.responses
