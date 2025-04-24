@@ -1,21 +1,21 @@
 @options
 @packages
 -classpath
-'C:/Users/Aluno/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar;C:/Users/Aluno/.m2/repository/org/apache/commons/commons-jexl3/3.4.0/commons-jexl3-3.4.0.jar;C:/Users/Aluno/.m2/repository/net/objecthunter/exp4j/0.4.8/exp4j-0.4.8.jar;C:/Users/Aluno/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/3.3.10/spring-boot-starter-actuator-3.3.10.jar;C:/Users/Aluno/.m2/repository/org/springframework/boot/spring-boot-starter/3.3.10/spring-boot-starter-3.3.10.jar;C:/Users/Aluno/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.3.10/spring-boot-starter-logging-3.3.10.jar;C:/Users/Aluno/.m2/repository/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.jar;C:/Users/Aluno/.m2/repository/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.jar;C:/Users/Aluno/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.23.1/log4j-to-slf4j-2.23.1.jar;C:/Users/Aluno/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar;C:/Users/Aluno/.m2/repository/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17.jar;C:/Users/Aluno/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar;C:/Users/Aluno/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar;C:/Users/Aluno/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/3.3.10/spring-boot-actuator-autoconfigure-3.3.10.jar;C:/Users/Aluno/.m2/repository/org/springframework/boot/spring-boot-actuator/3.3.10/spring-boot-actuator-3.3.10.jar;C:/Users/Aluno/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.3/jackson-databind-2.17.3.jar;C:/Users/Aluno/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.3/jackson-core-2.17.3.jar;C:/Users/Aluno/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.3/jackson-datatype-jsr310-2.17.3.jar;C:/Users/Aluno/.m2/repository/io/micrometer/micrometer-observation/1.13.12/micrometer-observation-1.13.12.jar;C:/Users/Aluno/.m2/repository/io/micrometer/micrometer-commons/1.13.12/micrometer-commons-1.13.12.jar;C:/Users/Aluno/.m2/repository/io/micrometer/micrometer-jakarta9/1.13.12/micrometer-jakarta9-1.13.12.jar;C:/Users/Aluno/.m2/repository/io/micrometer/micrometer-core/1.13.12/micrometer-core-1.13.12.jar;C:/Users/Aluno/.m2/repository/org/springframework/boot/spring-boot-starter-data-rest/3.3.10/spring-boot-starter-data-rest-3.3.10.jar;C:/Users/Aluno/.m2/repository/org/springframework/data/spring-data-rest-webmvc/4.3.10/spring-data-rest-webmvc-4.3.10.jar;C:/Users/Aluno/.m2/repository/org/springframework/data/spring-data-rest-core/4.3.10/spring-data-rest-core-4.3.10.jar;C:/Users/Aluno/.m2/repository/org/springframework/spring-tx/6.1.18/spring-tx-6.1.18.jar;C:/Users/Aluno/.m2/repository/org/springframework/hateoas/spring-hateoas/2.3.4/spring-hateoas-2.3.4.jar;C:/Users/Aluno/.m2/repository/org/springframework/data/spring-data-commons/3.3.10/spring-data-commons-3.3.10.jar;C:/Users/Aluno/.m2/repository/org/springframework/plugin/spring-plugin-core/3.0.0/spring-plugin-core-3.0.0.jar;C:/Users/Aluno/.m2/repository/org/atteo/evo-inflector/1.3/evo-inflector-1.3.jar;C:/Users/Aluno/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.3/jackson-annotations-2.17.3.jar;C:/Users/Aluno/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar;C:/Users/Aluno/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.3.10/spring-boot-starter-web-3.3.10.jar;C:/Users/Aluno/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.3.10/spring-boot-starter-json-3.3.10.jar;C:/Users/Aluno/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.17.3/jackson-datatype-jdk8-2.17.3.jar;C:/Users/Aluno/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.17.3/jackson-module-parameter-names-2.17.3.jar;C:/Users/Aluno/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.3.10/spring-boot-starter-tomcat-3.3.10.jar;C:/Users/Aluno/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.39/tomcat-embed-core-10.1.39.jar;C:/Users/Aluno/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.39/tomcat-embed-el-10.1.39.jar;C:/Users/Aluno/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.39/tomcat-embed-websocket-10.1.39.jar;C:/Users/Aluno/.m2/repository/org/springframework/spring-web/6.1.18/spring-web-6.1.18.jar;C:/Users/Aluno/.m2/repository/org/springframework/spring-beans/6.1.18/spring-beans-6.1.18.jar;C:/Users/Aluno/.m2/repository/org/springframework/spring-webmvc/6.1.18/spring-webmvc-6.1.18.jar;C:/Users/Aluno/.m2/repository/org/springframework/spring-aop/6.1.18/spring-aop-6.1.18.jar;C:/Users/Aluno/.m2/repository/org/springframework/spring-context/6.1.18/spring-context-6.1.18.jar;C:/Users/Aluno/.m2/repository/org/springframework/spring-expression/6.1.18/spring-expression-6.1.18.jar;C:/Users/Aluno/.m2/repository/org/springframework/boot/spring-boot-starter-web-services/3.3.10/spring-boot-starter-web-services-3.3.10.jar;C:/Users/Aluno/.m2/repository/com/sun/xml/messaging/saaj/saaj-impl/3.0.4/saaj-impl-3.0.4.jar;C:/Users/Aluno/.m2/repository/jakarta/xml/soap/jakarta.xml.soap-api/3.0.2/jakarta.xml.soap-api-3.0.2.jar;C:/Users/Aluno/.m2/repository/org/jvnet/staxex/stax-ex/2.1.0/stax-ex-2.1.0.jar;C:/Users/Aluno/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar;C:/Users/Aluno/.m2/repository/jakarta/xml/ws/jakarta.xml.ws-api/4.0.2/jakarta.xml.ws-api-4.0.2.jar;C:/Users/Aluno/.m2/repository/org/springframework/spring-oxm/6.1.18/spring-oxm-6.1.18.jar;C:/Users/Aluno/.m2/repository/org/springframework/ws/spring-ws-core/4.0.12/spring-ws-core-4.0.12.jar;C:/Users/Aluno/.m2/repository/org/springframework/ws/spring-xml/4.0.12/spring-xml-4.0.12.jar;C:/Users/Aluno/.m2/repository/org/springframework/boot/spring-boot/3.3.10/spring-boot-3.3.10.jar;C:/Users/Aluno/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.3.10/spring-boot-autoconfigure-3.3.10.jar;C:/Users/Aluno/.m2/repository/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar;C:/Users/Aluno/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar;C:/Users/Aluno/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar;C:/Users/Aluno/.m2/repository/org/springframework/spring-core/6.1.18/spring-core-6.1.18.jar;C:/Users/Aluno/.m2/repository/org/springframework/spring-jcl/6.1.18/spring-jcl-6.1.18.jar'
+'C:/Users/conve/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar;C:/Users/conve/.m2/repository/org/apache/commons/commons-jexl3/3.4.0/commons-jexl3-3.4.0.jar;C:/Users/conve/.m2/repository/net/objecthunter/exp4j/0.4.8/exp4j-0.4.8.jar;C:/Users/conve/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/3.3.10/spring-boot-starter-actuator-3.3.10.jar;C:/Users/conve/.m2/repository/org/springframework/boot/spring-boot-starter/3.3.10/spring-boot-starter-3.3.10.jar;C:/Users/conve/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.3.10/spring-boot-starter-logging-3.3.10.jar;C:/Users/conve/.m2/repository/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.jar;C:/Users/conve/.m2/repository/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.jar;C:/Users/conve/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.23.1/log4j-to-slf4j-2.23.1.jar;C:/Users/conve/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar;C:/Users/conve/.m2/repository/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17.jar;C:/Users/conve/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar;C:/Users/conve/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar;C:/Users/conve/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/3.3.10/spring-boot-actuator-autoconfigure-3.3.10.jar;C:/Users/conve/.m2/repository/org/springframework/boot/spring-boot-actuator/3.3.10/spring-boot-actuator-3.3.10.jar;C:/Users/conve/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.3/jackson-databind-2.17.3.jar;C:/Users/conve/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.3/jackson-core-2.17.3.jar;C:/Users/conve/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.3/jackson-datatype-jsr310-2.17.3.jar;C:/Users/conve/.m2/repository/io/micrometer/micrometer-observation/1.13.12/micrometer-observation-1.13.12.jar;C:/Users/conve/.m2/repository/io/micrometer/micrometer-commons/1.13.12/micrometer-commons-1.13.12.jar;C:/Users/conve/.m2/repository/io/micrometer/micrometer-jakarta9/1.13.12/micrometer-jakarta9-1.13.12.jar;C:/Users/conve/.m2/repository/io/micrometer/micrometer-core/1.13.12/micrometer-core-1.13.12.jar;C:/Users/conve/.m2/repository/org/springframework/boot/spring-boot-starter-data-rest/3.3.10/spring-boot-starter-data-rest-3.3.10.jar;C:/Users/conve/.m2/repository/org/springframework/data/spring-data-rest-webmvc/4.3.10/spring-data-rest-webmvc-4.3.10.jar;C:/Users/conve/.m2/repository/org/springframework/data/spring-data-rest-core/4.3.10/spring-data-rest-core-4.3.10.jar;C:/Users/conve/.m2/repository/org/springframework/spring-tx/6.1.18/spring-tx-6.1.18.jar;C:/Users/conve/.m2/repository/org/springframework/hateoas/spring-hateoas/2.3.4/spring-hateoas-2.3.4.jar;C:/Users/conve/.m2/repository/org/springframework/data/spring-data-commons/3.3.10/spring-data-commons-3.3.10.jar;C:/Users/conve/.m2/repository/org/springframework/plugin/spring-plugin-core/3.0.0/spring-plugin-core-3.0.0.jar;C:/Users/conve/.m2/repository/org/atteo/evo-inflector/1.3/evo-inflector-1.3.jar;C:/Users/conve/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.3/jackson-annotations-2.17.3.jar;C:/Users/conve/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar;C:/Users/conve/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.3.10/spring-boot-starter-web-3.3.10.jar;C:/Users/conve/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.3.10/spring-boot-starter-json-3.3.10.jar;C:/Users/conve/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.17.3/jackson-datatype-jdk8-2.17.3.jar;C:/Users/conve/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.17.3/jackson-module-parameter-names-2.17.3.jar;C:/Users/conve/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.3.10/spring-boot-starter-tomcat-3.3.10.jar;C:/Users/conve/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.39/tomcat-embed-core-10.1.39.jar;C:/Users/conve/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.39/tomcat-embed-el-10.1.39.jar;C:/Users/conve/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.39/tomcat-embed-websocket-10.1.39.jar;C:/Users/conve/.m2/repository/org/springframework/spring-web/6.1.18/spring-web-6.1.18.jar;C:/Users/conve/.m2/repository/org/springframework/spring-beans/6.1.18/spring-beans-6.1.18.jar;C:/Users/conve/.m2/repository/org/springframework/spring-webmvc/6.1.18/spring-webmvc-6.1.18.jar;C:/Users/conve/.m2/repository/org/springframework/spring-aop/6.1.18/spring-aop-6.1.18.jar;C:/Users/conve/.m2/repository/org/springframework/spring-context/6.1.18/spring-context-6.1.18.jar;C:/Users/conve/.m2/repository/org/springframework/spring-expression/6.1.18/spring-expression-6.1.18.jar;C:/Users/conve/.m2/repository/org/springframework/boot/spring-boot-starter-web-services/3.3.10/spring-boot-starter-web-services-3.3.10.jar;C:/Users/conve/.m2/repository/com/sun/xml/messaging/saaj/saaj-impl/3.0.4/saaj-impl-3.0.4.jar;C:/Users/conve/.m2/repository/jakarta/xml/soap/jakarta.xml.soap-api/3.0.2/jakarta.xml.soap-api-3.0.2.jar;C:/Users/conve/.m2/repository/org/jvnet/staxex/stax-ex/2.1.0/stax-ex-2.1.0.jar;C:/Users/conve/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar;C:/Users/conve/.m2/repository/jakarta/xml/ws/jakarta.xml.ws-api/4.0.2/jakarta.xml.ws-api-4.0.2.jar;C:/Users/conve/.m2/repository/org/springframework/spring-oxm/6.1.18/spring-oxm-6.1.18.jar;C:/Users/conve/.m2/repository/org/springframework/ws/spring-ws-core/4.0.12/spring-ws-core-4.0.12.jar;C:/Users/conve/.m2/repository/org/springframework/ws/spring-xml/4.0.12/spring-xml-4.0.12.jar;C:/Users/conve/.m2/repository/org/springframework/boot/spring-boot/3.3.10/spring-boot-3.3.10.jar;C:/Users/conve/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.3.10/spring-boot-autoconfigure-3.3.10.jar;C:/Users/conve/.m2/repository/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar;C:/Users/conve/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar;C:/Users/conve/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar;C:/Users/conve/.m2/repository/org/springframework/spring-core/6.1.18/spring-core-6.1.18.jar;C:/Users/conve/.m2/repository/org/springframework/spring-jcl/6.1.18/spring-jcl-6.1.18.jar'
 -encoding
 'UTF-8'
 -protected
 --release
 22
 -sourcepath
-'c:/Users/Aluno/Desktop/Projetos/libs/speedspring-test/speedspring-rest/src/main/java;c:/Users/Aluno/Desktop/Projetos/libs/speedspring-test/speedspring-rest/target/generated-sources/annotations'
+'c:/Users/conve/Desktop/libs próprias/SpeedSpring-Demo/src/main/java;c:/Users/conve/Desktop/libs próprias/SpeedSpring-Demo/target/generated-sources/annotations'
 -author
 -bottom
 'Copyright &#169; 2025. All rights reserved.'
 -charset
 'UTF-8'
 -d
-'c:/Users/Aluno/Desktop/Projetos/libs/speedspring-test/speedspring-rest/target/apidocs'
+'c:/Users/conve/Desktop/libs próprias/SpeedSpring-Demo/target/apidocs'
 -docencoding
 'UTF-8'
 -Xdoclint:none
@@ -31,82 +31,82 @@ com.spec.speedspring.core.dto
 com.spec.speedspring.core.dtoConvertable
 com.spec.speedspring.core.exception
 com.spec.speedspring.core.responses
-C:\Users\Aluno\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar = 1745450381225
-C:\Users\Aluno\.m2\repository\org\apache\commons\commons-jexl3\3.4.0\commons-jexl3-3.4.0.jar = 1742854222694
-C:\Users\Aluno\.m2\repository\net\objecthunter\exp4j\0.4.8\exp4j-0.4.8.jar = 1742854223928
-C:\Users\Aluno\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\3.3.10\spring-boot-starter-actuator-3.3.10.jar = 1745450381283
-C:\Users\Aluno\.m2\repository\org\springframework\boot\spring-boot-starter\3.3.10\spring-boot-starter-3.3.10.jar = 1745450381295
-C:\Users\Aluno\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.3.10\spring-boot-starter-logging-3.3.10.jar = 1745450381285
-C:\Users\Aluno\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar = 1745450381784
-C:\Users\Aluno\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar = 1745450381581
-C:\Users\Aluno\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.23.1\log4j-to-slf4j-2.23.1.jar = 1742854224461
-C:\Users\Aluno\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar = 1742854227056
-C:\Users\Aluno\.m2\repository\org\slf4j\jul-to-slf4j\2.0.17\jul-to-slf4j-2.0.17.jar = 1745450381359
-C:\Users\Aluno\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar = 1740522810019
-C:\Users\Aluno\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar = 1741650834262
-C:\Users\Aluno\.m2\repository\org\springframework\boot\spring-boot-actuator-autoconfigure\3.3.10\spring-boot-actuator-autoconfigure-3.3.10.jar = 1745450382198
-C:\Users\Aluno\.m2\repository\org\springframework\boot\spring-boot-actuator\3.3.10\spring-boot-actuator-3.3.10.jar = 1745450381980
-C:\Users\Aluno\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.3\jackson-databind-2.17.3.jar = 1745450381803
-C:\Users\Aluno\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.3\jackson-core-2.17.3.jar = 1745450381977
-C:\Users\Aluno\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.3\jackson-datatype-jsr310-2.17.3.jar = 1745450381862
-C:\Users\Aluno\.m2\repository\io\micrometer\micrometer-observation\1.13.12\micrometer-observation-1.13.12.jar = 1745450381862
-C:\Users\Aluno\.m2\repository\io\micrometer\micrometer-commons\1.13.12\micrometer-commons-1.13.12.jar = 1745450382755
-C:\Users\Aluno\.m2\repository\io\micrometer\micrometer-jakarta9\1.13.12\micrometer-jakarta9-1.13.12.jar = 1745450382493
-C:\Users\Aluno\.m2\repository\io\micrometer\micrometer-core\1.13.12\micrometer-core-1.13.12.jar = 1745450382236
-C:\Users\Aluno\.m2\repository\org\springframework\boot\spring-boot-starter-data-rest\3.3.10\spring-boot-starter-data-rest-3.3.10.jar = 1745450382035
-C:\Users\Aluno\.m2\repository\org\springframework\data\spring-data-rest-webmvc\4.3.10\spring-data-rest-webmvc-4.3.10.jar = 1745450382513
-C:\Users\Aluno\.m2\repository\org\springframework\data\spring-data-rest-core\4.3.10\spring-data-rest-core-4.3.10.jar = 1745450382271
-C:\Users\Aluno\.m2\repository\org\springframework\spring-tx\6.1.18\spring-tx-6.1.18.jar = 1745450382793
-C:\Users\Aluno\.m2\repository\org\springframework\hateoas\spring-hateoas\2.3.4\spring-hateoas-2.3.4.jar = 1745450382777
-C:\Users\Aluno\.m2\repository\org\springframework\data\spring-data-commons\3.3.10\spring-data-commons-3.3.10.jar = 1745450382797
-C:\Users\Aluno\.m2\repository\org\springframework\plugin\spring-plugin-core\3.0.0\spring-plugin-core-3.0.0.jar = 1740522813122
-C:\Users\Aluno\.m2\repository\org\atteo\evo-inflector\1.3\evo-inflector-1.3.jar = 1740522812745
-C:\Users\Aluno\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.3\jackson-annotations-2.17.3.jar = 1745450382614
-C:\Users\Aluno\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar = 1745450382684
-C:\Users\Aluno\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.3.10\spring-boot-starter-web-3.3.10.jar = 1745450382746
-C:\Users\Aluno\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.3.10\spring-boot-starter-json-3.3.10.jar = 1745450382808
-C:\Users\Aluno\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.3\jackson-datatype-jdk8-2.17.3.jar = 1745450383474
-C:\Users\Aluno\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.17.3\jackson-module-parameter-names-2.17.3.jar = 1745450383087
-C:\Users\Aluno\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.3.10\spring-boot-starter-tomcat-3.3.10.jar = 1745450382853
-C:\Users\Aluno\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.39\tomcat-embed-core-10.1.39.jar = 1745450383974
-C:\Users\Aluno\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.39\tomcat-embed-el-10.1.39.jar = 1745450383089
-C:\Users\Aluno\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.39\tomcat-embed-websocket-10.1.39.jar = 1745450383180
-C:\Users\Aluno\.m2\repository\org\springframework\spring-web\6.1.18\spring-web-6.1.18.jar = 1745450383474
-C:\Users\Aluno\.m2\repository\org\springframework\spring-beans\6.1.18\spring-beans-6.1.18.jar = 1745450383691
-C:\Users\Aluno\.m2\repository\org\springframework\spring-webmvc\6.1.18\spring-webmvc-6.1.18.jar = 1745450383673
-C:\Users\Aluno\.m2\repository\org\springframework\spring-aop\6.1.18\spring-aop-6.1.18.jar = 1745450383794
-C:\Users\Aluno\.m2\repository\org\springframework\spring-context\6.1.18\spring-context-6.1.18.jar = 1745450383790
-C:\Users\Aluno\.m2\repository\org\springframework\spring-expression\6.1.18\spring-expression-6.1.18.jar = 1745450384008
-C:\Users\Aluno\.m2\repository\org\springframework\boot\spring-boot-starter-web-services\3.3.10\spring-boot-starter-web-services-3.3.10.jar = 1745450383749
-C:\Users\Aluno\.m2\repository\com\sun\xml\messaging\saaj\saaj-impl\3.0.4\saaj-impl-3.0.4.jar = 1740522815023
-C:\Users\Aluno\.m2\repository\jakarta\xml\soap\jakarta.xml.soap-api\3.0.2\jakarta.xml.soap-api-3.0.2.jar = 1740522815884
-C:\Users\Aluno\.m2\repository\org\jvnet\staxex\stax-ex\2.1.0\stax-ex-2.1.0.jar = 1740522815737
-C:\Users\Aluno\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar = 1740522815488
-C:\Users\Aluno\.m2\repository\jakarta\xml\ws\jakarta.xml.ws-api\4.0.2\jakarta.xml.ws-api-4.0.2.jar = 1740522815560
-C:\Users\Aluno\.m2\repository\org\springframework\spring-oxm\6.1.18\spring-oxm-6.1.18.jar = 1745450383807
-C:\Users\Aluno\.m2\repository\org\springframework\ws\spring-ws-core\4.0.12\spring-ws-core-4.0.12.jar = 1745450384285
-C:\Users\Aluno\.m2\repository\org\springframework\ws\spring-xml\4.0.12\spring-xml-4.0.12.jar = 1745450383858
-C:\Users\Aluno\.m2\repository\org\springframework\boot\spring-boot\3.3.10\spring-boot-3.3.10.jar = 1745450384342
-C:\Users\Aluno\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.3.10\spring-boot-autoconfigure-3.3.10.jar = 1745450384255
-C:\Users\Aluno\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar = 1740522817989
-C:\Users\Aluno\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar = 1740522817599
-C:\Users\Aluno\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar = 1740522817509
-C:\Users\Aluno\.m2\repository\org\springframework\spring-core\6.1.18\spring-core-6.1.18.jar = 1745450384689
-C:\Users\Aluno\.m2\repository\org\springframework\spring-jcl\6.1.18\spring-jcl-6.1.18.jar = 1745450384784
-c:\Users\Aluno\Desktop\Projetos\libs\speedspring-test\speedspring-rest\src\main\java = 1745451489134
-c:\Users\Aluno\Desktop\Projetos\libs\speedspring-test\speedspring-rest\target\generated-sources\annotations = 1745455074765
-c:\Users\Aluno\Desktop\Projetos\libs\speedspring-test\speedspring-rest\target\apidocs\allclasses-index.html = 1745455086125
-c:\Users\Aluno\Desktop\Projetos\libs\speedspring-test\speedspring-rest\target\apidocs\allpackages-index.html = 1745455086129
-c:\Users\Aluno\Desktop\Projetos\libs\speedspring-test\speedspring-rest\target\apidocs\element-list = 1745455085795
-c:\Users\Aluno\Desktop\Projetos\libs\speedspring-test\speedspring-rest\target\apidocs\help-doc.html = 1745455086176
-c:\Users\Aluno\Desktop\Projetos\libs\speedspring-test\speedspring-rest\target\apidocs\index-all.html = 1745455086164
-c:\Users\Aluno\Desktop\Projetos\libs\speedspring-test\speedspring-rest\target\apidocs\index.html = 1745455086097
-c:\Users\Aluno\Desktop\Projetos\libs\speedspring-test\speedspring-rest\target\apidocs\member-search-index.js = 1745455086144
-c:\Users\Aluno\Desktop\Projetos\libs\speedspring-test\speedspring-rest\target\apidocs\module-search-index.js = 1745455086130
-c:\Users\Aluno\Desktop\Projetos\libs\speedspring-test\speedspring-rest\target\apidocs\overview-summary.html = 1745455086172
-c:\Users\Aluno\Desktop\Projetos\libs\speedspring-test\speedspring-rest\target\apidocs\overview-tree.html = 1745455086078
-c:\Users\Aluno\Desktop\Projetos\libs\speedspring-test\speedspring-rest\target\apidocs\package-search-index.js = 1745455086136
-c:\Users\Aluno\Desktop\Projetos\libs\speedspring-test\speedspring-rest\target\apidocs\search.html = 1745455086168
-c:\Users\Aluno\Desktop\Projetos\libs\speedspring-test\speedspring-rest\target\apidocs\serialized-form.html = 1745455085907
-c:\Users\Aluno\Desktop\Projetos\libs\speedspring-test\speedspring-rest\target\apidocs\tag-search-index.js = 1745455086146
-c:\Users\Aluno\Desktop\Projetos\libs\speedspring-test\speedspring-rest\target\apidocs\type-search-index.js = 1745455086142
+C:\Users\conve\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar = 1745430429929
+C:\Users\conve\.m2\repository\org\apache\commons\commons-jexl3\3.4.0\commons-jexl3-3.4.0.jar = 1741793602039
+C:\Users\conve\.m2\repository\net\objecthunter\exp4j\0.4.8\exp4j-0.4.8.jar = 1741792028468
+C:\Users\conve\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\3.3.10\spring-boot-starter-actuator-3.3.10.jar = 1745427936259
+C:\Users\conve\.m2\repository\org\springframework\boot\spring-boot-starter\3.3.10\spring-boot-starter-3.3.10.jar = 1745427936333
+C:\Users\conve\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.3.10\spring-boot-starter-logging-3.3.10.jar = 1745427936337
+C:\Users\conve\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar = 1745427936389
+C:\Users\conve\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar = 1745427936431
+C:\Users\conve\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.23.1\log4j-to-slf4j-2.23.1.jar = 1726163633071
+C:\Users\conve\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar = 1726163632777
+C:\Users\conve\.m2\repository\org\slf4j\jul-to-slf4j\2.0.17\jul-to-slf4j-2.0.17.jar = 1745427936457
+C:\Users\conve\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar = 1726163631986
+C:\Users\conve\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar = 1726163632822
+C:\Users\conve\.m2\repository\org\springframework\boot\spring-boot-actuator-autoconfigure\3.3.10\spring-boot-actuator-autoconfigure-3.3.10.jar = 1745427936606
+C:\Users\conve\.m2\repository\org\springframework\boot\spring-boot-actuator\3.3.10\spring-boot-actuator-3.3.10.jar = 1745427936634
+C:\Users\conve\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.3\jackson-databind-2.17.3.jar = 1745427936789
+C:\Users\conve\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.3\jackson-core-2.17.3.jar = 1745427936648
+C:\Users\conve\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.3\jackson-datatype-jsr310-2.17.3.jar = 1745427936612
+C:\Users\conve\.m2\repository\io\micrometer\micrometer-observation\1.13.12\micrometer-observation-1.13.12.jar = 1745427936696
+C:\Users\conve\.m2\repository\io\micrometer\micrometer-commons\1.13.12\micrometer-commons-1.13.12.jar = 1745427937840
+C:\Users\conve\.m2\repository\io\micrometer\micrometer-jakarta9\1.13.12\micrometer-jakarta9-1.13.12.jar = 1745427937466
+C:\Users\conve\.m2\repository\io\micrometer\micrometer-core\1.13.12\micrometer-core-1.13.12.jar = 1745427936930
+C:\Users\conve\.m2\repository\org\springframework\boot\spring-boot-starter-data-rest\3.3.10\spring-boot-starter-data-rest-3.3.10.jar = 1745427936777
+C:\Users\conve\.m2\repository\org\springframework\data\spring-data-rest-webmvc\4.3.10\spring-data-rest-webmvc-4.3.10.jar = 1745427936962
+C:\Users\conve\.m2\repository\org\springframework\data\spring-data-rest-core\4.3.10\spring-data-rest-core-4.3.10.jar = 1745427937103
+C:\Users\conve\.m2\repository\org\springframework\spring-tx\6.1.18\spring-tx-6.1.18.jar = 1745427937019
+C:\Users\conve\.m2\repository\org\springframework\hateoas\spring-hateoas\2.3.4\spring-hateoas-2.3.4.jar = 1745427937089
+C:\Users\conve\.m2\repository\org\springframework\data\spring-data-commons\3.3.10\spring-data-commons-3.3.10.jar = 1745427937419
+C:\Users\conve\.m2\repository\org\springframework\plugin\spring-plugin-core\3.0.0\spring-plugin-core-3.0.0.jar = 1726163632670
+C:\Users\conve\.m2\repository\org\atteo\evo-inflector\1.3\evo-inflector-1.3.jar = 1726163632373
+C:\Users\conve\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.3\jackson-annotations-2.17.3.jar = 1745427937165
+C:\Users\conve\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar = 1745427937178
+C:\Users\conve\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.3.10\spring-boot-starter-web-3.3.10.jar = 1745427937254
+C:\Users\conve\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.3.10\spring-boot-starter-json-3.3.10.jar = 1745427937251
+C:\Users\conve\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.3\jackson-datatype-jdk8-2.17.3.jar = 1745427938587
+C:\Users\conve\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.17.3\jackson-module-parameter-names-2.17.3.jar = 1745427937682
+C:\Users\conve\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.3.10\spring-boot-starter-tomcat-3.3.10.jar = 1745427937482
+C:\Users\conve\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.39\tomcat-embed-core-10.1.39.jar = 1745427938295
+C:\Users\conve\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.39\tomcat-embed-el-10.1.39.jar = 1745427937971
+C:\Users\conve\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.39\tomcat-embed-websocket-10.1.39.jar = 1745427937803
+C:\Users\conve\.m2\repository\org\springframework\spring-web\6.1.18\spring-web-6.1.18.jar = 1745427938369
+C:\Users\conve\.m2\repository\org\springframework\spring-beans\6.1.18\spring-beans-6.1.18.jar = 1745427938266
+C:\Users\conve\.m2\repository\org\springframework\spring-webmvc\6.1.18\spring-webmvc-6.1.18.jar = 1745427938435
+C:\Users\conve\.m2\repository\org\springframework\spring-aop\6.1.18\spring-aop-6.1.18.jar = 1745427938415
+C:\Users\conve\.m2\repository\org\springframework\spring-context\6.1.18\spring-context-6.1.18.jar = 1745427938616
+C:\Users\conve\.m2\repository\org\springframework\spring-expression\6.1.18\spring-expression-6.1.18.jar = 1745427938477
+C:\Users\conve\.m2\repository\org\springframework\boot\spring-boot-starter-web-services\3.3.10\spring-boot-starter-web-services-3.3.10.jar = 1745427938502
+C:\Users\conve\.m2\repository\com\sun\xml\messaging\saaj\saaj-impl\3.0.4\saaj-impl-3.0.4.jar = 1726163634932
+C:\Users\conve\.m2\repository\jakarta\xml\soap\jakarta.xml.soap-api\3.0.2\jakarta.xml.soap-api-3.0.2.jar = 1726163635504
+C:\Users\conve\.m2\repository\org\jvnet\staxex\stax-ex\2.1.0\stax-ex-2.1.0.jar = 1726163635535
+C:\Users\conve\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar = 1726163635007
+C:\Users\conve\.m2\repository\jakarta\xml\ws\jakarta.xml.ws-api\4.0.2\jakarta.xml.ws-api-4.0.2.jar = 1726163635074
+C:\Users\conve\.m2\repository\org\springframework\spring-oxm\6.1.18\spring-oxm-6.1.18.jar = 1745427938535
+C:\Users\conve\.m2\repository\org\springframework\ws\spring-ws-core\4.0.12\spring-ws-core-4.0.12.jar = 1745427938613
+C:\Users\conve\.m2\repository\org\springframework\ws\spring-xml\4.0.12\spring-xml-4.0.12.jar = 1745427938604
+C:\Users\conve\.m2\repository\org\springframework\boot\spring-boot\3.3.10\spring-boot-3.3.10.jar = 1745427939055
+C:\Users\conve\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.3.10\spring-boot-autoconfigure-3.3.10.jar = 1745427939282
+C:\Users\conve\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar = 1745427939212
+C:\Users\conve\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar = 1726163637352
+C:\Users\conve\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar = 1726163637336
+C:\Users\conve\.m2\repository\org\springframework\spring-core\6.1.18\spring-core-6.1.18.jar = 1745427939615
+C:\Users\conve\.m2\repository\org\springframework\spring-jcl\6.1.18\spring-jcl-6.1.18.jar = 1745427939754
+c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\src\main\java = 1745494990875
+c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\generated-sources\annotations = 1745495724653
+c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\allclasses-index.html = 1745495750260
+c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\allpackages-index.html = 1745495750260
+c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\element-list = 1745495749762
+c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\help-doc.html = 1745495750385
+c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\index-all.html = 1745495750338
+c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\index.html = 1745495750228
+c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\member-search-index.js = 1745495750291
+c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\module-search-index.js = 1745495750260
+c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\overview-summary.html = 1745495750385
+c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\overview-tree.html = 1745495750221
+c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\package-search-index.js = 1745495750260
+c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\search.html = 1745495750385
+c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\serialized-form.html = 1745495749940
+c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\tag-search-index.js = 1745495750307
+c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\type-search-index.js = 1745495750260

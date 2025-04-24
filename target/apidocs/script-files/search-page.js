@@ -1,8 +1,26 @@
 /*
- * Copyright (c) 2022, 2024, Oracle and/or its affiliates. All rights reserved.
- * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+ * Copyright (c) 2022, 2023, Oracle and/or its affiliates. All rights reserved.
+ * ORACLE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  *
- * Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl/
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
  */
 
 "use strict";
@@ -244,7 +262,6 @@ $(window).on("load", function() {
         setSearchUrl();
     });
     input.prop("disabled", false);
-    input.attr("autocapitalize", "off");
     reset.prop("disabled", false);
 
     var urlParams = new URLSearchParams(window.location.search);
