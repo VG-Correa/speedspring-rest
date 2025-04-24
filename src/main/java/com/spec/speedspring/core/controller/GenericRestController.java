@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.spec.speedspring.core.dtoConvertable.DTOConvertable;
@@ -50,6 +51,7 @@ import com.spec.speedspring.core.responses.InternalErrorResponse;
  * @since 1.0
  */
 @RestController
+@Component
 public class GenericRestController {
 
     /**
