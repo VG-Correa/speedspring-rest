@@ -37,13 +37,27 @@ import com.spec.speedspring.core.responses.InternalErrorResponse;
  * Todas as respostas seguem o padrão {@link GenericResponse}, garantindo consistência
  * no formato de retorno da API (status, mensagem, dados, erro e metadados).
  * <p>
- * Exemplo de uso em serviço REST:
+ * Exemplo de uso em Rest Controller:
  * <pre>
- * &#64;GetMapping("/usuarios")
- * public ResponseEntity<GenericResponse> listarUsuarios() {
- *     List<Usuario> usuarios = usuarioService.obterTodos();
- *     List<UsuarioDTO> dtos = toDTO(usuarios);
- *     return getResponseOK("Usuários carregados com sucesso", dtos);
+ * @RestController
+ * @RequestMapping("/usuarios")
+ * public class UsuarioRestController extends GenericRestController {
+ * 
+ *     @PostMapping
+ *     public ResponseEntity<UsuarioDTO> criarUsuario(@RequestBody UsuarioWriteDTO usuarioWriteDTO) {
+ *         Usuario usuario = new Usuario();
+ *         usuario.initBy(usuarioWriteDTO); // Inicializa o objeto de domínio com os dados do DTO de entrada
+ *         
+ *         // ou passando direto o WriteDTO no construtor se o construtor estiver implementado
+ *         // Usuario usuario = new Usuario(usuarioWriteDTO);
+ *  
+ *         // Aqui você pode salvar o objeto usuario no banco de dados, se necessário
+ *          
+ * 
+ * 
+ *         UsuarioDTO usuarioDTO = usuario.toDTO(); // Converte o objeto de domínio para o DTO de saída
+ *         return getResponseOK("Usuario convertido com sucesso", (usuarioDTO));
+ *     }
  * }
  * </pre>
  *
