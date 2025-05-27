@@ -8,23 +8,23 @@
 --release
 22
 -sourcepath
-'c:/Users/conve/Desktop/libs próprias/SpeedSpring-Demo/src/main/java;c:/Users/conve/Desktop/libs próprias/SpeedSpring-Demo/target/generated-sources/annotations'
+'C:/Users/conve/Desktop/libs próprias/SpeedSpring-Demo/src/main/java;C:/Users/conve/Desktop/libs próprias/SpeedSpring-Demo/target/generated-sources/annotations'
 -author
 -bottom
 'Copyright &#169; 2025. All rights reserved.'
 -charset
 'UTF-8'
 -d
-'c:/Users/conve/Desktop/libs próprias/SpeedSpring-Demo/target/apidocs'
+'C:/Users/conve/Desktop/libs próprias/SpeedSpring-Demo/target/apidocs'
 -docencoding
 'UTF-8'
 -Xdoclint:none
 -doctitle
-'SpeedSpring Rest 1.0.2 API'
+'SpeedSpring Rest 1.0.3 API'
 -use
 -version
 -windowtitle
-'SpeedSpring Rest 1.0.2 API'
+'SpeedSpring Rest 1.0.3 API'
 com.spec.speedspring.config
 com.spec.speedspring.core.controller
 com.spec.speedspring.core.dto
@@ -93,20 +93,20 @@ C:\Users\conve\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.
 C:\Users\conve\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar = 1726163637336
 C:\Users\conve\.m2\repository\org\springframework\spring-core\6.1.18\spring-core-6.1.18.jar = 1745427939615
 C:\Users\conve\.m2\repository\org\springframework\spring-jcl\6.1.18\spring-jcl-6.1.18.jar = 1745427939754
-c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\src\main\java = 1745494990875
-c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\generated-sources\annotations = 1745504403075
-c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\allclasses-index.html = 1745504414003
-c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\allpackages-index.html = 1745504414006
-c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\element-list = 1745504413822
-c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\help-doc.html = 1745504414042
-c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\index-all.html = 1745504414032
-c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\index.html = 1745504413988
-c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\member-search-index.js = 1745504414010
-c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\module-search-index.js = 1745504414007
-c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\overview-summary.html = 1745504414038
-c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\overview-tree.html = 1745504413984
-c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\package-search-index.js = 1745504414008
-c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\search.html = 1745504414035
-c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\serialized-form.html = 1745504413891
-c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\tag-search-index.js = 1745504414011
-c:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\type-search-index.js = 1745504414009
+C:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\src\main\java = 1745494990875
+C:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\generated-sources\annotations = 1748360283293
+C:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\allclasses-index.html = 1748360291347
+C:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\allpackages-index.html = 1748360291347
+C:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\element-list = 1748360290823
+C:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\help-doc.html = 1748360291488
+C:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\index-all.html = 1748360291410
+C:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\index.html = 1748360291285
+C:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\member-search-index.js = 1748360291347
+C:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\module-search-index.js = 1748360291347
+C:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\overview-summary.html = 1748360291456
+C:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\overview-tree.html = 1748360291269
+C:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\package-search-index.js = 1748360291347
+C:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\search.html = 1748360291456
+C:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\serialized-form.html = 1748360291000
+C:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\tag-search-index.js = 1748360291347
+C:\Users\conve\Desktop\libs próprias\SpeedSpring-Demo\target\apidocs\type-search-index.js = 1748360291347

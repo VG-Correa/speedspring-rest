@@ -17,7 +17,7 @@
     <!-- Coordenadas únicas para publicação no Maven Central -->
     <groupId>com.speedspring</groupId>
     <artifactId>speedspring-rest</artifactId>
-    <version>1.0.2</version> <!-- Remova '-SNAPSHOT' para release final -->
+    <version>1.0.3</version> <!-- Remova '-SNAPSHOT' para release final -->
     <packaging>jar</packaging>
 
     <!-- Metadados do projeto -->

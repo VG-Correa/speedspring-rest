@@ -6,8 +6,10 @@ com\spec\speedspring\core\exception\ValorNuloException.class
 com\spec\speedspring\core\exception\EntityAlreadActiveException.class
 com\spec\speedspring\core\exception\RegistroJaExisteException.class
 com\spec\speedspring\config\SpeedSpringAutoConfiguration.class
+com\spec\speedspring\core\exception\UserUnauthorizedException.class
 com\spec\speedspring\core\responses\NotFoundResponse.class
 com\spec\speedspring\core\dtoConvertable\DTOConvertable.class
+com\spec\speedspring\core\exception\CredentialsInvalidException.class
 com\spec\speedspring\core\exception\EntityNotFoundException.class
 com\spec\speedspring\core\responses\EntityAlreadyActiveResponse.class
 com\spec\speedspring\core\responses\EntityAlreadyDeletedResponse.class
