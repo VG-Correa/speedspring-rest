@@ -2,7 +2,7 @@ package com.spec.speedspring.core.exception;
 
 public class UserUnauthorizedException extends RuntimeException{
     
-    UserUnauthorizedException(String mensagem) {
+    public UserUnauthorizedException(String mensagem) {
         super(mensagem);
     }
 
